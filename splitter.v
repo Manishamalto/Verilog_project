@@ -1,26 +1,4 @@
-`timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date: 18.04.2024 20:54:58
-// Design Name: 
-// Module Name: splitter
-// Project Name: 
-// Target Devices: 
-// Tool Versions: 
-// Description: 
-// 
-// Dependencies: 
-// 
-// Revision:
-// Revision 0.01 - File Created
-// Additional Comments:
-// 
-//////////////////////////////////////////////////////////////////////////////////
-
-
-module DataSplitter(
+module splitter(
     input wire clock,        // Clock signal
     input wire valid,        // Input valid signal
     input wire [31:0] tdata, // 32-bit input data
