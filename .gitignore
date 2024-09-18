@@ -1,0 +1,8 @@
+*.log
+*.jou
+*.runs/
+*.sim/
+*.cache/
+*.xpr
+*.rpt
+*.ip_user_files/
